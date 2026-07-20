@@ -12,7 +12,7 @@ Sebelum menjalankan skrip, pastikan Anda telah menyiapkan folder proyek dengan s
 2. **Folder `turnstilePatch`:** Harus berisi file ekstensi bypass lokal (`manifest.json` dan `script.js`). Letakkan folder ini dalam satu direktori bersama skrip utama.
 3. **Google Chrome Komersial:** Pastikan aplikasi resmi Google Chrome sudah terinstal di sistem Anda (bukan sekadar peramban Chromium bawaan python).
 4. **Berkas Skrip Utama:** 
-   - `grok-signup-local.py` (Skrip Python utama Anda)
+   - `grok-regist.py` (Skrip Python utama Anda)
    - `.env` (Berkas konfigurasi lingkungan)
 
 ---
