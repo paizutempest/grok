@@ -28,7 +28,7 @@ if _envfile.exists():
 
 def _env_or(key, default): return _env.get(key, default)
 
-PASSWORD = _env_or('PASSWORD', 'change-me!')
+PASSWORD = _env_or('PASSWORD', 'change-me')
 TS_DIR   = Path('turnstilePatch').resolve()  # Folder turnstilePatch
 OUT      = Path('sso.txt')
 SIGNUP   = 'https://accounts.x.ai/sign-up?redirect=grok-com'
