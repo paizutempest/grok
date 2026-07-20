@@ -32,7 +32,7 @@ PASSWORD = _env_or('PASSWORD', 'change-me')
 TS_DIR   = Path('turnstilePatch').resolve()  # Folder turnstilePatch
 OUT      = Path('sso.txt')
 SIGNUP   = 'https://accounts.x.ai/sign-up?redirect=grok-com'
-PAIZUMAILER = _env_or('PAIZUMAILER_URL', 'https://tempik.paizu.my.id') # change-me
+PAIZUMAILER = _env_or('PAIZUMAILER_URL', 'https://tempik.paizu.id') # change-me
 DOMAINS  = _env_or('PAIZUMAILER_DOMAINS', 'paizu.my.id').split(',') # change-me
 ROUTER9  = _env_or('ROUTER9_URL', 'http://localhost:portmu') # change-me
 ROUTER9_PASS = _env_or('ROUTER9_PASS', 'change-me')
