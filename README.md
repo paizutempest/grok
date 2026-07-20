@@ -37,7 +37,7 @@ Skrip dijalankan menggunakan Google Chrome komersial bawaan laptop Anda.
 1. Pastikan **Python 3.10 ke atas** sudah terinstal dan opsi *Add Python to PATH* telah dicentang saat instalasi.
 2. Buka PowerShell atau Command Prompt (CMD), masuk ke folder proyek Anda, lalu instal seluruh *library* pendukung:
 ```powershell
-   pip install playwright requests colorama
+   pip install playwright requests colorama ```
 
 ### 🐧 2. Setup di Linux (VPS / Server Ubuntu)
 
