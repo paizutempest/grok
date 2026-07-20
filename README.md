@@ -36,9 +36,10 @@ Skrip dijalankan menggunakan Google Chrome komersial bawaan laptop Anda.
 **Langkah Instalasi di Windows:**
 1. Pastikan **Python 3.10 ke atas** sudah terinstal dan opsi *Add Python to PATH* telah dicentang saat instalasi.
 2. Buka PowerShell atau Command Prompt (CMD), masuk ke folder proyek Anda, lalu instal seluruh *library* pendukung:
-```powershell
-   pip install playwright requests colorama ```
+   ```powershell
+   pip install playwright requests colorama
 
+   
 ### 🐧 2. Setup di Linux (VPS / Server Ubuntu)
 
 Karena skrip ini mengontrol antarmuka browser grafis (GUI) secara langsung (`headless=False`), skrip **tidak bisa dijalankan langsung di terminal SSH kosongan**. Anda wajib menginstal **Xvfb** (X Virtual Framebuffer) untuk memanipulasi *virtual display* di latar belakang server.
@@ -48,5 +49,4 @@ Karena skrip ini mengontrol antarmuka browser grafis (GUI) secara langsung (`hea
    ```bash
    sudo apt update
    sudo apt install -y xvfb libgbm1 libasound2
-   ```powershell
-   pip install playwright requests colorama
+
