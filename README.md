@@ -1,7 +1,7 @@
 # ⚡ Grok AI Auto-Signup & 9Router
 
 Skrip ini berfungsi untuk melakukan registrasi massal akun Grok (x.ai) secara otomatis menggunakan perpaduan **Playwright Browser Automation**, **Paizu Temp Mail API**, eksekusi modul bypass **TurnstilePatch lokal** (tanpa capsolver), serta sinkronisasi sesi otomatis ke dalam **9Router Proxy Gateway**.
-
+ 
 ---
 
 ## 📦 Komponen yang Dibutuhkan & Harus Didownload
